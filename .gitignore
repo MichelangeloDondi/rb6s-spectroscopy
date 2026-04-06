@@ -1,0 +1,25 @@
+# Python virtual environment
+venv/
+env/
+bin/
+lib/
+include/
+pyvenv.cfg
+
+# Python cache and Jupyter checkpoints
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data folders (Keep the folders, ignore the files)
+data/01_raw/*
+data/02_interim/*
+data/03_processed/*
+
+# Exception: allow .gitkeep files so folders exist on GitHub
+!data/01_raw/.gitkeep
+!data/02_interim/.gitkeep
+!data/03_processed/.gitkeep
+
+# macOS system files
+.DS_Store
