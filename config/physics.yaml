@@ -1,0 +1,5 @@
+physics:
+  target_isotope: "Rb85"
+  transitions:
+    carrier_mhz: 0.0
+    natural_linewidth_mhz: 3.5

@@ -1,0 +1,6 @@
+eom_calibration:
+  rf_frequency_mhz: 12.5
+  peak_finding:
+    prominence: 0.03
+    distance: 150
+    expected_peaks: 5

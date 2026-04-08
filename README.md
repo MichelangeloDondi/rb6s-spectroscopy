@@ -34,7 +34,10 @@ Analyzes a power series to eliminate **AC Stark shifts** and **differential powe
 rb_twophoton_fit/
 ├── README.md               # You are here
 ├── requirements.txt        # Python dependencies
-├── config.yaml             # Centralized physical constants and RF parameters
+├── config/
+│   ├── eom_calibration.yaml  # Hardware and RF parameters
+│   ├── physics.yaml          # Atomic constants and transitions
+│   └── fitting.yaml          # Optimization tolerances and models
 ├── data/                   
 │   ├── 01_raw/             # Immutable oscilloscope traces (Not tracked by Git)
 │   ├── 02_interim/         # Frequency-calibrated X-axis arrays (.npz)

@@ -1,0 +1,4 @@
+fitting:
+  model: "voigt"
+  max_iterations: 1000
+  tolerance: 1e-6
